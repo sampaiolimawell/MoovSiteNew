@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalOcean | Cloud Infrastructure for Developers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-banner">
+            <div class="banner-content">
+                <span>Join us for our webinar where we discuss running llm-d frameworks on DigitalOcean Kubernetes. RSVP now.</span>
+                <button class="banner-close">&times;</button>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-left">
+                    <a href="#" class="logo">
+                        <img src="assets/digitalocean_logo.png" alt="DigitalOcean" class="logo-img">
+                    </a>
+                </div>
+                
+                <div class="nav-center">
+                    <div class="nav-menu">
+                        <div class="nav-item dropdown">
+                            <button class="nav-link">Products</button>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <button class="nav-link">Solutions</button>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <button class="nav-link">Developers</button>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <button class="nav-link">Partners</button>
+                        </div>
+                        <a href="#" class="nav-link">Pricing</a>
+                    </div>
+                </div>
+                
+                <div class="nav-right">
+                    <div class="nav-actions">
+                        <a href="#" class="nav-link">Log in</a>
+                        <a href="#" class="btn btn-primary">Sign up</a>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">The simplest cloud that scales with you.</h1>
+                    <p class="hero-description">
+                        Powerful and production-ready, our cloud platform has the solutions that devs like you 
+                        need to succeed—whether you're building world-changing AI apps, running a side project, 
+                        or building a business.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-outline">Sign up with email</a>
+                        <a href="#" class="btn btn-google">
+                            <svg class="google-icon" viewBox="0 0 24 24">
+                                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                            </svg>
+                            Sign up with Google
+                        </a>
+                        <a href="#" class="btn btn-github">
+                            <svg class="github-icon" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            Sign up with GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-image">
+                        <div class="dashboard-mockup">
+                            <div class="dashboard-header">
+                                <div class="dashboard-nav">
+                                    <div class="nav-item active">Projects</div>
+                                    <div class="nav-item">Manage</div>
+                                    <div class="nav-item">API</div>
+                                </div>
+                            </div>
+                            <div class="dashboard-content">
+                                <h3>Agent Platform</h3>
+                                <div class="workspace-section">
+                                    <h4>Workspaces</h4>
+                                    <div class="workspace-item">
+                                        <div class="workspace-icon"></div>
+                                        <div class="workspace-info">
+                                            <span>Creative Testing</span>
+                                            <small>3 days ago</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's New Section -->
+    <section class="whats-new">
+        <div class="container">
+            <h2 class="section-title">What's new on DigitalOcean</h2>
+            
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-badge">Product Updates</div>
+                    <h3>Introducing DigitalOcean GradientAI™</h3>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-badge">Product Updates</div>
+                    <h3>GradientAI Platform now Generally Available</h3>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-badge">Product Updates</div>
+                    <h3>Serverless Inference now on GradientAI Platform</h3>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GradientAI Features Section -->
+    <section class="gradient-ai">
+        <div class="container">
+            <div class="gradient-content">
+                <div class="gradient-text">
+                    <h2>New GradientAI Platform Features</h2>
+                    <p>DigitalOcean's GradientAI Platform is now generally available, making it easier to build, test, and deploy AI agents with new features like agent evaluations, external data integration, and agent traceability.</p>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+                <div class="gradient-visual">
+                    <div class="ai-icon">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="white" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="8" fill="white"/>
+                            <circle cx="70" cy="30" r="8" fill="white"/>
+                            <circle cx="30" cy="70" r="8" fill="white"/>
+                            <circle cx="70" cy="70" r="8" fill="white"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">#1</div>
+                    <div class="stat-text">In IaaS usability, VPS for SMBs, & SMB Hosting <a href="#">on G2</a></div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number">99.99%</div>
+                    <div class="stat-text">Uptime SLA for Droplets and Volumes block storage</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number">>600k</div>
+                    <div class="stat-text">Customers building with DigitalOcean</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <div class="products-header">
+                <h2>A cloud for your entire journey</h2>
+                <p>DigitalOcean's suite of products is designed to be with you on every step of your journey, whether you want to do it yourself or get help from the experts.</p>
+                <a href="#" class="btn btn-outline">See all products</a>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Virtual machines</h3>
+                    <p>DigitalOcean Droplets are simple, scalable virtual machines for all your <a href="#">web hosting</a> and <a href="#">VPS hosting</a> needs.</p>
+                    <a href="#" class="learn-more">Learn more about virtual machines</a>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Kubernetes</h3>
+                    <p>DigitalOcean Kubernetes is a managed solution that is easy to scale and includes a 99.95% SLA and free control plane.</p>
+                    <a href="#" class="learn-more">Learn more about Kubernetes</a>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>GradientAI</h3>
+                    <p>Build, train, and deploy AI apps, or create AI agents with a suite of simple-to-use tools.</p>
+                    <a href="#" class="learn-more">Learn more about GradientAI</a>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>App Platform</h3>
+                    <p>App Platform is our fully-managed PaaS solution to get your app to market fast that's super simple to set up and cost-effective.</p>
+                    <a href="#" class="learn-more">Learn more about App Platform</a>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Managed databases</h3>
+                    <p>Managed MongoDB, Kafka, MySQL, PostgreSQL, and Caching let you focus on your apps while we update and scale your databases.</p>
+                    <a href="#" class="learn-more">Learn more about managed databases</a>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M10 4H4c-1.11 0-2 .89-2 2v12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2h-8l-2-2z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Storage</h3>
+                    <p>DigitalOcean <a href="#">Spaces object storage</a> and <a href="#">Volumes block storage</a> are business-ready storage solutions.</p>
+                    <a href="#" class="learn-more">Learn more about storage</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-header">
+                <h2>Benefits to activate the builder in you</h2>
+                <p>From simple tools and predictable pricing to support designed for growing businesses, DigitalOcean's cloud is built to serve the unique needs of startups and SMBs.</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 100 100">
+                            <rect x="20" y="30" width="60" height="40" fill="currentColor" rx="5"/>
+                            <path d="M30 20 L50 35 L70 20" stroke="currentColor" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3>Build and ship faster using simple tools</h3>
+                    <p>All of our products are built with simplicity at their core, so you can spend your time focusing on building apps, not infrastructure.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="3"/>
+                            <path d="M35 50 L45 60 L65 40" stroke="currentColor" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3>Grow profitably with predictable cloud costs</h3>
+                    <p>Our predictable pricing and leading price-to-performance ratio contribute to an ROI of 186%, <a href="#">according to a Forrester study.</a></p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="35" r="15" fill="currentColor"/>
+                            <path d="M25 65 Q50 50 75 65 L75 85 L25 85 Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Reduce your roadblocks with dedicated support</h3>
+                    <p>Get free, personalized support or upgrade to paid plans to receive dedicated help and faster response times.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="35" fill="none" stroke="currentColor" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="50" cy="50" r="5" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Improve customer experience by building on a reliable platform</h3>
+                    <p>Deliver superior customer experience with our globally distributed platform, minimal downtime, and intuitive products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn Section -->
+    <section class="learn">
+        <div class="container">
+            <div class="learn-header">
+                <h2>Learn from the experts</h2>
+                <p>Whether you want to learn about funding your business, installing Linux on Ubuntu, or getting started on DigitalOcean, we have the educational resources for you.</p>
+            </div>
+            
+            <div class="learn-tabs">
+                <button class="tab-btn active">Product documentation</button>
+                <button class="tab-btn">Business advice</button>
+                <button class="tab-btn">Technical expertise</button>
+            </div>
+            
+            <div class="learn-content">
+                <div class="learn-visual">
+                    <div class="docs-illustration">
+                        <div class="docs-bg"></div>
+                    </div>
+                </div>
+                <div class="learn-text">
+                    <h3>Product documentation</h3>
+                    <p>Learn how to spin up a virtual machine, get started with block storage, and more with in-depth documentation.</p>
+                    <a href="#" class="learn-more">Read the docs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-content">
+                <div class="testimonial-quote">
+                    <blockquote>
+                        "DigitalOcean's blend of intentional simplicity, affordability and flexibility in its cloud services makes it an appealing option for individual developers, high growth startups, and more generally ISVs and SMEs (small and medium enterprises) seeking a robust platform alternative from the hyperscalers. It's a business ready cloud - making it easy for growing companies to attain momentum and scale sustainably."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <strong>Dave McCarthy</strong>
+                            <span>Research Vice President, IDC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Tours Section -->
+    <section class="product-tours">
+        <div class="container">
+            <div class="tours-content">
+                <div class="tours-text">
+                    <h2>See our products in action</h2>
+                    <p>Check out our brief product tours to see how simple, easy, and pleasant it is to use DigitalOcean's cloud hosting products.</p>
+                    <a href="#" class="btn btn-primary">Take a tour</a>
+                </div>
+                <div class="tours-visual">
+                    <div class="submarine-illustration">
+                        <svg viewBox="0 0 400 200">
+                            <ellipse cx="200" cy="100" rx="150" ry="50" fill="#0066FF"/>
+                            <circle cx="120" cy="100" r="15" fill="#00D4FF"/>
+                            <circle cx="160" cy="100" r="15" fill="#00D4FF"/>
+                            <circle cx="200" cy="100" r="15" fill="#00D4FF"/>
+                            <circle cx="240" cy="100" r="15" fill="#00D4FF"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Stories Section -->
+    <section class="customer-stories">
+        <div class="container">
+            <h2>Thousands of digital native enterprises run on DigitalOcean</h2>
+            
+            <div class="customer-logos">
+                <div class="logo-item">Snipitz</div>
+                <div class="logo-item">ScraperAPI</div>
+                <div class="logo-item">Zinc</div>
+                <div class="logo-item">Bright Data</div>
+                <div class="logo-item">NicePack</div>
+            </div>
+            
+            <div class="customer-story">
+                <div class="story-visual">
+                    <div class="story-image">
+                        <div class="mockup-screen">
+                            <div class="mockup-content">
+                                <h4>Transform. Empower. Engage.</h4>
+                                <p>Leading the broadcast revolution, solving today's problems in the marketplace.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-content">
+                    <blockquote>
+                        "Creating a first-of-its-kind video platform as a startup is a near impossible task without partners that are not only tremendously talented, but have the same forward thinking as you do. DigitalOcean has helped us go from architecture to launch by pairing us with strategic partners who are like-minded and innovative."
+                    </blockquote>
+                    <div class="story-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <strong>Denny Darmo,</strong>
+                            <span>Founder and CEO, Snipitz</span>
+                        </div>
+                    </div>
+                    <a href="#" class="learn-more">Read the case study</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Get started for free</h2>
+                    <p>Sign up and get $200 in credit for your first 60 days with DigitalOcean.*</p>
+                    <small>*This promotional offer applies to new accounts only.</small>
+                </div>
+                <div class="cta-action">
+                    <a href="#" class="btn btn-primary btn-large">Get started</a>
+                </div>
+            </div>
+            <div class="cta-visual">
+                <div class="wave-pattern">
+                    <svg viewBox="0 0 1200 300">
+                        <path d="M0,100 Q300,50 600,100 T1200,100 L1200,300 L0,300 Z" fill="url(#waveGradient)"/>
+                        <defs>
+                            <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#0066FF;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#00D4FF;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#0066FF;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Referral Program</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Droplets</a></li>
+                        <li><a href="#">Kubernetes</a></li>
+                        <li><a href="#">Functions</a></li>
+                        <li><a href="#">App Platform</a></li>
+                        <li><a href="#">GradientAI GPU Droplets</a></li>
+                        <li><a href="#">GradientAI Bare Metal GPUs</a></li>
+                        <li><a href="#">GradientAI 1-Click Models</a></li>
+                        <li><a href="#">GradientAI Platform</a></li>
+                        <li><a href="#">Load Balancers</a></li>
+                        <li><a href="#">Managed Databases</a></li>
+                        <li><a href="#">Spaces</a></li>
+                        <li><a href="#">Block Storage</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Community Tutorials</a></li>
+                        <li><a href="#">Community Q&A</a></li>
+                        <li><a href="#">CSS-Tricks</a></li>
+                        <li><a href="#">Write for DOnations</a></li>
+                        <li><a href="#">Currents Research</a></li>
+                        <li><a href="#">Hatch Startup Program</a></li>
+                        <li><a href="#">Wavemakers Program</a></li>
+                        <li><a href="#">Compass Council</a></li>
+                        <li><a href="#">Open Source</a></li>
+                        <li><a href="#">Newsletter Signup</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Pricing Calculator</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="#">Website Hosting</a></li>
+                        <li><a href="#">VPS Hosting</a></li>
+                        <li><a href="#">Web & Mobile Apps</a></li>
+                        <li><a href="#">Game Development</a></li>
+                        <li><a href="#">Streaming</a></li>
+                        <li><a href="#">VPN</a></li>
+                        <li><a href="#">SaaS Platforms</a></li>
+                        <li><a href="#">Cloud Hosting for Blockchain</a></li>
+                        <li><a href="#">Startup Resources</a></li>
+                        <li><a href="#">Migration Assistance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Report Abuse</a></li>
+                        <li><a href="#">System Status</a></li>
+                        <li><a href="#">Share your ideas</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 DigitalOcean, LLC. <a href="#">Sitemap</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
